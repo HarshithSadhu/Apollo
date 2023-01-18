@@ -1,24 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Light.ttf">
+            <string>Poppins-Light</string>
+        </array>
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+        <array key="Poppins-Thin.ttf">
+            <string>Poppins-Thin</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Apollo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, Harshith" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7jd-fN-1ba">
+                                <rect key="frame" x="48" y="99" width="173" height="34"/>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's Plan Your Day!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7TZ-HY-fyT">
+                                <rect key="frame" x="48" y="135" width="163" height="25.5"/>
+                                <fontDescription key="fontDescription" name="Poppins-Thin" family="Poppins" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CardStock" translatesAutoresizingMaskIntoConstraints="NO" id="ahK-Z0-CBB">
+                                <rect key="frame" x="0.0" y="174" width="359" height="356"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Story of the Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tLn-mF-Sh4">
+                                <rect key="frame" x="48" y="550" width="138" height="25.5"/>
+                                <fontDescription key="fontDescription" name="Poppins-Thin" family="Poppins" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="storyOfRectangle" translatesAutoresizingMaskIntoConstraints="NO" id="56t-DH-yRE">
+                                <rect key="frame" x="29" y="588" width="333.5" height="96.5"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MenuBar" translatesAutoresizingMaskIntoConstraints="NO" id="Z7x-vx-qCV">
+                                <rect key="frame" x="29" y="709" width="334" height="97"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jaagat Prashar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygC-vG-m4H">
+                                <rect key="frame" x="109" y="606" width="156.5" height="28"/>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Student Athlete" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cil-di-hdS">
+                                <rect key="frame" x="109" y="635" width="133" height="26"/>
+                                <fontDescription key="fontDescription" name="Poppins-Thin" family="Poppins" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pomodoro Learning" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VNu-8A-0cj">
+                                <rect key="frame" x="56" y="720" width="112" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="112" id="3NZ-7Z-5j7"/>
+                                    <constraint firstAttribute="height" constant="64" id="7RH-vz-bIm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Light" family="Poppins" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="News" translatesAutoresizingMaskIntoConstraints="NO" id="EdJ-hv-q1b">
+                                <rect key="frame" x="56" y="610" width="50" height="50"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Task Manager" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Se1-nH-rmO">
+                                <rect key="frame" x="227" y="715" width="95" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="51r-WD-LX7"/>
+                                    <constraint firstAttribute="height" constant="75" id="Nec-MY-NhT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Light" family="Poppins" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.062745098039215685" green="0.062745098039215685" blue="0.062745098039215685" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="56t-DH-yRE" firstAttribute="top" secondItem="tLn-mF-Sh4" secondAttribute="bottom" constant="12.5" id="3F7-1B-WCh"/>
+                            <constraint firstItem="tLn-mF-Sh4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="48" id="41q-C4-FWU"/>
+                            <constraint firstItem="ahK-Z0-CBB" firstAttribute="top" secondItem="7TZ-HY-fyT" secondAttribute="bottom" constant="13.5" id="5DO-Fk-oQR"/>
+                            <constraint firstItem="Se1-nH-rmO" firstAttribute="top" secondItem="56t-DH-yRE" secondAttribute="bottom" constant="30.5" id="6Ru-dH-EBc"/>
+                            <constraint firstItem="56t-DH-yRE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="29" id="Fse-UE-uoc"/>
+                            <constraint firstItem="EdJ-hv-q1b" firstAttribute="top" secondItem="tLn-mF-Sh4" secondAttribute="bottom" constant="34.5" id="HQF-aZ-mjc"/>
+                            <constraint firstItem="7TZ-HY-fyT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="48" id="Ifs-VJ-Nye"/>
+                            <constraint firstItem="VNu-8A-0cj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="56" id="JRm-77-fnF"/>
+                            <constraint firstItem="VNu-8A-0cj" firstAttribute="top" secondItem="56t-DH-yRE" secondAttribute="bottom" constant="35.5" id="SyS-5l-PBZ"/>
+                            <constraint firstItem="tLn-mF-Sh4" firstAttribute="top" secondItem="ahK-Z0-CBB" secondAttribute="bottom" constant="20" id="UyJ-wa-WF8"/>
+                            <constraint firstItem="ahK-Z0-CBB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Vym-he-Avz"/>
+                            <constraint firstItem="Cil-di-hdS" firstAttribute="top" secondItem="ygC-vG-m4H" secondAttribute="bottom" constant="1" id="Wkd-LV-8Qy"/>
+                            <constraint firstItem="Se1-nH-rmO" firstAttribute="leading" secondItem="VNu-8A-0cj" secondAttribute="trailing" constant="59" id="ZVF-vR-nEg"/>
+                            <constraint firstItem="7jd-fN-1ba" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="48" id="hyf-8R-UVu"/>
+                            <constraint firstItem="Cil-di-hdS" firstAttribute="leading" secondItem="EdJ-hv-q1b" secondAttribute="trailing" constant="3" id="l3p-wt-v9T"/>
+                            <constraint firstItem="Z7x-vx-qCV" firstAttribute="top" secondItem="56t-DH-yRE" secondAttribute="bottom" constant="24.5" id="oHl-uk-vdi"/>
+                            <constraint firstItem="ygC-vG-m4H" firstAttribute="top" secondItem="tLn-mF-Sh4" secondAttribute="bottom" constant="30.5" id="p9U-zM-T00"/>
+                            <constraint firstItem="7TZ-HY-fyT" firstAttribute="top" secondItem="7jd-fN-1ba" secondAttribute="bottom" constant="2" id="pa8-Fc-gCi"/>
+                            <constraint firstItem="7jd-fN-1ba" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="55" id="psD-Jr-VF1"/>
+                            <constraint firstItem="EdJ-hv-q1b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="56" id="teJ-Yw-84x"/>
+                            <constraint firstItem="Z7x-vx-qCV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="29" id="tku-rW-dGi"/>
+                            <constraint firstItem="ygC-vG-m4H" firstAttribute="leading" secondItem="EdJ-hv-q1b" secondAttribute="trailing" constant="3" id="w2o-0D-3s9"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="69.642857142857139"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="CardStock" width="359" height="356"/>
+        <image name="MenuBar" width="334" height="97"/>
+        <image name="News" width="50" height="50"/>
+        <image name="storyOfRectangle" width="333.5" height="96.5"/>
+    </resources>
 </document>

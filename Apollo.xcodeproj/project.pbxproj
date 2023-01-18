@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D67D6A6229773DD900E2A907 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D67D6A6129773DD900E2A907 /* Poppins-Light.ttf */; };
 		D688F46E2975D74A00FE2E8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D688F46D2975D74A00FE2E8B /* AppDelegate.swift */; };
 		D688F4702975D74A00FE2E8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D688F46F2975D74A00FE2E8B /* SceneDelegate.swift */; };
 		D688F4722975D74A00FE2E8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D688F4712975D74A00FE2E8B /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		D688F47A2975D74E00FE2E8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D688F4782975D74E00FE2E8B /* LaunchScreen.storyboard */; };
 		D688F4852975D74E00FE2E8B /* ApolloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D688F4842975D74E00FE2E8B /* ApolloTests.swift */; };
 		D688F4902975D74E00FE2E8B /* ApolloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D688F48F2975D74E00FE2E8B /* ApolloUITests.swift */; };
+		D6E61DBB297737630042CA35 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6E61DBA297737630042CA35 /* Poppins-Medium.ttf */; };
+		D6E61DBD297739250042CA35 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6E61DBC297739250042CA35 /* Poppins-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D67D6A6129773DD900E2A907 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
 		D688F46A2975D74A00FE2E8B /* Apollo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apollo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D688F46D2975D74A00FE2E8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D688F46F2975D74A00FE2E8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		D688F48B2975D74E00FE2E8B /* ApolloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApolloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D688F48F2975D74E00FE2E8B /* ApolloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloUITests.swift; sourceTree = "<group>"; };
 		D688F4912975D74E00FE2E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E61DBA297737630042CA35 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		D6E61DBC297739250042CA35 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				D688F46F2975D74A00FE2E8B /* SceneDelegate.swift */,
 				D688F4712975D74A00FE2E8B /* ViewController.swift */,
 				D688F4732975D74A00FE2E8B /* Main.storyboard */,
+				D6E61DBA297737630042CA35 /* Poppins-Medium.ttf */,
+				D6E61DBC297739250042CA35 /* Poppins-Thin.ttf */,
+				D67D6A6129773DD900E2A907 /* Poppins-Light.ttf */,
 				D688F4762975D74E00FE2E8B /* Assets.xcassets */,
 				D688F4782975D74E00FE2E8B /* LaunchScreen.storyboard */,
 				D688F47B2975D74E00FE2E8B /* Info.plist */,
@@ -232,8 +241,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D688F47A2975D74E00FE2E8B /* LaunchScreen.storyboard in Resources */,
+				D67D6A6229773DD900E2A907 /* Poppins-Light.ttf in Resources */,
+				D6E61DBB297737630042CA35 /* Poppins-Medium.ttf in Resources */,
 				D688F4772975D74E00FE2E8B /* Assets.xcassets in Resources */,
 				D688F4752975D74A00FE2E8B /* Main.storyboard in Resources */,
+				D6E61DBD297739250042CA35 /* Poppins-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
