@@ -8,8 +8,11 @@ target 'Apollo' do
 
   # Pods for Apollo
 	pod 'Firebase/Core'
+	pod 'Firebase/Database'
 	pod 'Firebase/Messaging'
+	pod 'Firebase/Firestore'
 	pod 'MagicTimer'
+	
 
   target 'ApolloTests' do
     inherit! :search_paths
